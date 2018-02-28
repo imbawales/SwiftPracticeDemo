@@ -1,4 +1,6 @@
 # SwiftPracticeDemo
+#### 前言
+看到github上很多什么30天每天1demo学Swift的,于是决定自己也效仿下.
 Swift练习demo, 计划写30个小demo, 
 在过程中不断记录自己敲swift时候的感受和收获.
 
