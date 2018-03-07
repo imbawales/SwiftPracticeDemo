@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1843B8DD204F85B1002097E1 /* JWCustomFontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843B8DC204F85B1002097E1 /* JWCustomFontViewController.swift */; };
 		1850513E204E395A001F8C2C /* UIColor+LJW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1850513D204E395A001F8C2C /* UIColor+LJW.swift */; };
 		18505141204E39BA001F8C2C /* GlobalConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18505140204E39BA001F8C2C /* GlobalConst.swift */; };
 		1882290A204D36E900EE7B3A /* JWStopWatchVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18822909204D36E900EE7B3A /* JWStopWatchVController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1843B8DC204F85B1002097E1 /* JWCustomFontViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWCustomFontViewController.swift; sourceTree = "<group>"; };
 		1850513D204E395A001F8C2C /* UIColor+LJW.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+LJW.swift"; sourceTree = "<group>"; };
 		18505140204E39BA001F8C2C /* GlobalConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalConst.swift; sourceTree = "<group>"; };
 		18822909204D36E900EE7B3A /* JWStopWatchVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWStopWatchVController.swift; sourceTree = "<group>"; };
@@ -43,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1843B8DB204F8594002097E1 /* CustomFont */ = {
+			isa = PBXGroup;
+			children = (
+				1843B8DC204F85B1002097E1 /* JWCustomFontViewController.swift */,
+			);
+			path = CustomFont;
+			sourceTree = "<group>";
+		};
 		1850513B204E393F001F8C2C /* Other */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +134,7 @@
 				18C576912045086500B952EA /* JWMainTableViewCell.swift */,
 				18C576922045086500B952EA /* JWMainTableViewCell.xib */,
 				18822905204D36C400EE7B3A /* StopWatch */,
+				1843B8DB204F8594002097E1 /* CustomFont */,
 				1850513B204E393F001F8C2C /* Other */,
 				18C576842044E84D00B952EA /* Assets.xcassets */,
 				18C576862044E84D00B952EA /* LaunchScreen.storyboard */,
@@ -210,6 +221,7 @@
 				1882290A204D36E900EE7B3A /* JWStopWatchVController.swift in Sources */,
 				18C5767E2044E84D00B952EA /* AppDelegate.swift in Sources */,
 				18505141204E39BA001F8C2C /* GlobalConst.swift in Sources */,
+				1843B8DD204F85B1002097E1 /* JWCustomFontViewController.swift in Sources */,
 				1850513E204E395A001F8C2C /* UIColor+LJW.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
