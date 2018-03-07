@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1850513E204E395A001F8C2C /* UIColor+LJW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1850513D204E395A001F8C2C /* UIColor+LJW.swift */; };
+		18505141204E39BA001F8C2C /* GlobalConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18505140204E39BA001F8C2C /* GlobalConst.swift */; };
+		1882290A204D36E900EE7B3A /* JWStopWatchVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18822909204D36E900EE7B3A /* JWStopWatchVController.swift */; };
 		18C5767E2044E84D00B952EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C5767D2044E84D00B952EA /* AppDelegate.swift */; };
 		18C576802044E84D00B952EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C5767F2044E84D00B952EA /* ViewController.swift */; };
 		18C576852044E84D00B952EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C576842044E84D00B952EA /* Assets.xcassets */; };
 		18C576882044E84D00B952EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C576862044E84D00B952EA /* LaunchScreen.storyboard */; };
-		18C576902045001D00B952EA /* GlobleConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C5768F2045001D00B952EA /* GlobleConst.swift */; };
 		18C576932045086500B952EA /* JWMainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C576912045086500B952EA /* JWMainTableViewCell.swift */; };
 		18C576942045086500B952EA /* JWMainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C576922045086500B952EA /* JWMainTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1850513D204E395A001F8C2C /* UIColor+LJW.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+LJW.swift"; sourceTree = "<group>"; };
+		18505140204E39BA001F8C2C /* GlobalConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalConst.swift; sourceTree = "<group>"; };
+		18822909204D36E900EE7B3A /* JWStopWatchVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWStopWatchVController.swift; sourceTree = "<group>"; };
 		18C5767A2044E84D00B952EA /* MySwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C5767D2044E84D00B952EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18C5767F2044E84D00B952EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18C576842044E84D00B952EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18C576872044E84D00B952EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18C576892044E84D00B952EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18C5768F2045001D00B952EA /* GlobleConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobleConst.swift; sourceTree = "<group>"; };
 		18C576912045086500B952EA /* JWMainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWMainTableViewCell.swift; sourceTree = "<group>"; };
 		18C576922045086500B952EA /* JWMainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JWMainTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -39,6 +43,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1850513B204E393F001F8C2C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				1850513F204E398A001F8C2C /* Const */,
+				1850513C204E393F001F8C2C /* Category */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		1850513C204E393F001F8C2C /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				1850513D204E395A001F8C2C /* UIColor+LJW.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		1850513F204E398A001F8C2C /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				18505140204E39BA001F8C2C /* GlobalConst.swift */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		18822905204D36C400EE7B3A /* StopWatch */ = {
+			isa = PBXGroup;
+			children = (
+				18822906204D36C400EE7B3A /* Controller */,
+				18822907204D36C400EE7B3A /* Model */,
+				18822908204D36C400EE7B3A /* View */,
+			);
+			path = StopWatch;
+			sourceTree = "<group>";
+		};
+		18822906204D36C400EE7B3A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18822909204D36E900EE7B3A /* JWStopWatchVController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18822907204D36C400EE7B3A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18822908204D36C400EE7B3A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		18C576712044E84D00B952EA = {
 			isa = PBXGroup;
 			children = (
@@ -62,10 +123,11 @@
 				18C5767F2044E84D00B952EA /* ViewController.swift */,
 				18C576912045086500B952EA /* JWMainTableViewCell.swift */,
 				18C576922045086500B952EA /* JWMainTableViewCell.xib */,
+				18822905204D36C400EE7B3A /* StopWatch */,
+				1850513B204E393F001F8C2C /* Other */,
 				18C576842044E84D00B952EA /* Assets.xcassets */,
 				18C576862044E84D00B952EA /* LaunchScreen.storyboard */,
 				18C576892044E84D00B952EA /* Info.plist */,
-				18C5768F2045001D00B952EA /* GlobleConst.swift */,
 			);
 			path = MySwiftDemo;
 			sourceTree = "<group>";
@@ -145,8 +207,10 @@
 			files = (
 				18C576802044E84D00B952EA /* ViewController.swift in Sources */,
 				18C576932045086500B952EA /* JWMainTableViewCell.swift in Sources */,
-				18C576902045001D00B952EA /* GlobleConst.swift in Sources */,
+				1882290A204D36E900EE7B3A /* JWStopWatchVController.swift in Sources */,
 				18C5767E2044E84D00B952EA /* AppDelegate.swift in Sources */,
+				18505141204E39BA001F8C2C /* GlobalConst.swift in Sources */,
+				1850513E204E395A001F8C2C /* UIColor+LJW.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +364,7 @@
 				18C5768E2044E84D00B952EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

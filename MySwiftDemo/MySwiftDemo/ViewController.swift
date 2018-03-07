@@ -14,6 +14,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
     weak var tableV: UITableView?
     
+    lazy var demoArr = ["Stop Watch"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.jw_setupNavigationTitle()
@@ -41,12 +43,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 30;
+        return demoArr.count;
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cellID", for: indexPath) as! JWMainTableViewCell
-        cell.titleL.text = "我是第\(indexPath.row)个demo"
+        cell.titleL.text = self.demoArr[indexPath.row]
         return cell
     }
     
@@ -56,6 +58,16 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+        
+        let backBarBtn = UIBarButtonItem()
+        backBarBtn.title = ""
+        self.navigationItem.backBarButtonItem = backBarBtn
+        
+        let cell = tableView.cellForRow(at: indexPath) as! JWMainTableViewCell
+        if  cell.titleL.text == "Stop Watch"{
+            let vc = JWStopWatchVController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
     }
     
 

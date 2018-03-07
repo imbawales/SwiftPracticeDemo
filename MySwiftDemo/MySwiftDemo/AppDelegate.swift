@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         let mainVC = ViewController()
         let JWMainNavigationVC = UINavigationController(rootViewController: mainVC)
+        JWMainNavigationVC.navigationBar.tintColor = UIColor.darkGray
         self.window = UIWindow(frame: UIScreen.main.bounds)
         self.window?.rootViewController = JWMainNavigationVC
         self.window?.makeKeyAndVisible()
