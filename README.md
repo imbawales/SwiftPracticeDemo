@@ -24,5 +24,5 @@ Swift练习demo, 计划写30个小demo,
 2.在info.plist里面添加Fonts provided by application,  
   里面加上font的item, item的value为字体文件的全名(包括.ttf后缀, 如MFZhiHei_Noncommercial-Regular.ttf).  
   
-![image](https://github.com/imbawales/SwiftPracticeDemo/blob/master/MySwiftDemo/allpics/CustomFont1.png)
+![image](https://github.com/imbawales/SwiftPracticeDemo/blob/master/MySwiftDemo/allpics/CustomFont1.png)  
 ![gif](https://github.com/imbawales/SwiftPracticeDemo/blob/master/MySwiftDemo/allpics/CustomFont.gif)  
