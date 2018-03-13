@@ -9,3 +9,7 @@ Swift练习demo, 计划写30个小demo,
 发现swift里面没有oc里面的"宏"这个东西,取而代之是用全局常量和函数.  
 敲方法的技巧:敲"UIView("或者敲"UIView.init"都会有方法提示  
 ![image](https://github.com/imbawales/SwiftPracticeDemo/blob/master/MySwiftDemo/allpics/Snip20180228_3.png)
+
+##### 2018.3.13
+秒表demo  
+![gif](https://github.com/imbawales/SwiftPracticeDemo/blob/master/MySwiftDemo/allpics/stopWatch.gif)
