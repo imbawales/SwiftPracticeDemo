@@ -14,7 +14,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
     weak var tableV: UITableView?
     
-    lazy var demoArr = ["Stop Watch"]
+    lazy var demoArr = ["Stop Watch", "Custom Font"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -66,6 +66,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let cell = tableView.cellForRow(at: indexPath) as! JWMainTableViewCell
         if  cell.titleL.text == "Stop Watch"{
             let vc = JWStopWatchVController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
+        if  cell.titleL.text == "Custom Font"{
+            let vc = JWCustomFontViewController()
             self.navigationController?.pushViewController(vc, animated: true)
         }
     }

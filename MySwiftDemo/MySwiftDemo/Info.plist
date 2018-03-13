@@ -34,5 +34,13 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Gaspar Regular.otf</string>
+		<string>MFJinHei_Noncommercial-Regular.ttf</string>
+		<string>MFTongXin_Noncommercial-Regular.ttf</string>
+		<string>MFZhiHei_Noncommercial-Regular.ttf</string>
+		<string>edundot.ttf</string>
+	</array>
 </dict>
 </plist>

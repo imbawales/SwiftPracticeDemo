@@ -11,6 +11,10 @@
 		1850513E204E395A001F8C2C /* UIColor+LJW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1850513D204E395A001F8C2C /* UIColor+LJW.swift */; };
 		18505141204E39BA001F8C2C /* GlobalConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18505140204E39BA001F8C2C /* GlobalConst.swift */; };
 		1882290A204D36E900EE7B3A /* JWStopWatchVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18822909204D36E900EE7B3A /* JWStopWatchVController.swift */; };
+		189C9A942057828900F13C21 /* Gaspar Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 189C9A902057828900F13C21 /* Gaspar Regular.otf */; };
+		189C9A952057828900F13C21 /* MFJinHei_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 189C9A912057828900F13C21 /* MFJinHei_Noncommercial-Regular.ttf */; };
+		189C9A962057828900F13C21 /* MFTongXin_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 189C9A922057828900F13C21 /* MFTongXin_Noncommercial-Regular.ttf */; };
+		189C9A972057828900F13C21 /* MFZhiHei_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 189C9A932057828900F13C21 /* MFZhiHei_Noncommercial-Regular.ttf */; };
 		18C5767E2044E84D00B952EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C5767D2044E84D00B952EA /* AppDelegate.swift */; };
 		18C576802044E84D00B952EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C5767F2044E84D00B952EA /* ViewController.swift */; };
 		18C576852044E84D00B952EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C576842044E84D00B952EA /* Assets.xcassets */; };
@@ -24,6 +28,10 @@
 		1850513D204E395A001F8C2C /* UIColor+LJW.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+LJW.swift"; sourceTree = "<group>"; };
 		18505140204E39BA001F8C2C /* GlobalConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalConst.swift; sourceTree = "<group>"; };
 		18822909204D36E900EE7B3A /* JWStopWatchVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWStopWatchVController.swift; sourceTree = "<group>"; };
+		189C9A902057828900F13C21 /* Gaspar Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gaspar Regular.otf"; sourceTree = "<group>"; };
+		189C9A912057828900F13C21 /* MFJinHei_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFJinHei_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
+		189C9A922057828900F13C21 /* MFTongXin_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFTongXin_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
+		189C9A932057828900F13C21 /* MFZhiHei_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFZhiHei_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
 		18C5767A2044E84D00B952EA /* MySwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C5767D2044E84D00B952EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18C5767F2044E84D00B952EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,6 +56,7 @@
 		1843B8DB204F8594002097E1 /* CustomFont */ = {
 			isa = PBXGroup;
 			children = (
+				189C9A8F2057828900F13C21 /* fontSource */,
 				1843B8DC204F85B1002097E1 /* JWCustomFontViewController.swift */,
 			);
 			path = CustomFont;
@@ -108,6 +117,17 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		189C9A8F2057828900F13C21 /* fontSource */ = {
+			isa = PBXGroup;
+			children = (
+				189C9A902057828900F13C21 /* Gaspar Regular.otf */,
+				189C9A912057828900F13C21 /* MFJinHei_Noncommercial-Regular.ttf */,
+				189C9A922057828900F13C21 /* MFTongXin_Noncommercial-Regular.ttf */,
+				189C9A932057828900F13C21 /* MFZhiHei_Noncommercial-Regular.ttf */,
+			);
+			path = fontSource;
 			sourceTree = "<group>";
 		};
 		18C576712044E84D00B952EA = {
@@ -204,7 +224,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				18C576882044E84D00B952EA /* LaunchScreen.storyboard in Resources */,
+				189C9A942057828900F13C21 /* Gaspar Regular.otf in Resources */,
+				189C9A972057828900F13C21 /* MFZhiHei_Noncommercial-Regular.ttf in Resources */,
+				189C9A952057828900F13C21 /* MFJinHei_Noncommercial-Regular.ttf in Resources */,
 				18C576942045086500B952EA /* JWMainTableViewCell.xib in Resources */,
+				189C9A962057828900F13C21 /* MFTongXin_Noncommercial-Regular.ttf in Resources */,
 				18C576852044E84D00B952EA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
