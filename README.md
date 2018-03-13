@@ -11,5 +11,18 @@ Swift练习demo, 计划写30个小demo,
 ![image](https://github.com/imbawales/SwiftPracticeDemo/blob/master/MySwiftDemo/allpics/Snip20180228_3.png)
 
 ##### 2018.3.13
-秒表demo  
-![gif](https://github.com/imbawales/SwiftPracticeDemo/blob/master/MySwiftDemo/allpics/stopWatch.gif)
+###### 秒表demo  
+![gif](https://github.com/imbawales/SwiftPracticeDemo/blob/master/MySwiftDemo/allpics/stopWatch.gif)  
+
+
+##### 2018.3.13  
+###### 自定义字体demo  
+- 设置颜色时候, 用OC的话要敲[UIColor blackColor], 现在只用敲.black  
+- 在OC里面要敲的枚举值, 现在只用敲 . 然后就会有提示, 如.touchUpInside, .none, .normal  
+- 添加自定义字体的步骤:  
+1.把字体的.ttf或者.otf文件拉进项目.  
+2.在info.plist里面添加Fonts provided by application,  
+  里面加上font的item, item的value为字体文件的全名(包括.ttf后缀, 如MFZhiHei_Noncommercial-Regular.ttf).  
+  
+![image](https://github.com/imbawales/SwiftPracticeDemo/blob/master/MySwiftDemo/allpics/CustomFont1.png)
+![gif](https://github.com/imbawales/SwiftPracticeDemo/blob/master/MySwiftDemo/allpics/CustomFont.gif)  
